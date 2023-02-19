@@ -1,0 +1,101 @@
+/* .hero {
+    background-image: linear-gradient(to bottom, #ffffff, #12cd), url('../images/digital.webp');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+} */
+body {
+    background-color: #000;
+    color: white;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #00000061, #000), url('../images/matrix-bg.png');
+    /* background-image: linear-gradient(to top, #ffffff, #000000b8); */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.section p {
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mobile-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    /* background: rgba(0,0,0,0.5); */
+    background: rgba(0,0,0,0.0);
+}
+.navbar .navbar-burger {
+    color: #ffffff;
+    /* color: #000; */
+}
+
+/* .navbar .navbar-menu {
+    background: rgba(0,0,0,0.5);
+} */
+
+
+.js-modal-trigger {
+    cursor: pointer;
+}
+
+
+.menu-list a {
+    color: white;
+}
+.menu-list a.is-active{
+    background-color: #ffffff;
+    color: #000;
+}
+
+.navbar-burger span {
+    width: 20px;
+    height: 2px;
+    left: calc(50% - 20px);
+}
+
+
+.columns {
+    margin-right: 0;
+}
